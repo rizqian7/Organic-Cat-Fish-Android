@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_primary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/data_pribadi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_sans_extra_bold"
+                    android:text="WELCOME DRIVER"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_panen"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/panen"
+                />
+
+            <ImageView
+                android:id="@+id/iv_pesan"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/pesan"
+                />
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/btndaftarPanen"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/shape"-->
+<!--                android:minHeight="90dp"-->
+<!--                >-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_1"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/product_sans_bold"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:text="DAFTAR"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:textColor="@color/colorPrimaryDark"-->
+<!--                    android:singleLine="true"-->
+
+<!--                    />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_2"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/product_sans_bold"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:text="PANEN"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:textColor="@color/colorPrimaryDark"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:layout_below="@+id/tv_1"-->
+<!--                    />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:src="@drawable/ic_baseline_arrow_forward_24"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginRight="20dp"/>-->
+
+
+<!--            </RelativeLayout>-->
+
+<!--            <RelativeLayout-->
+<!--                android:id="@+id/btndaftarPesan"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/shape"-->
+<!--                android:minHeight="90dp"-->
+<!--                >-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_3"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/product_sans_bold"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:text="DAFTAR"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:textColor="@color/colorPrimaryDark"-->
+<!--                    android:singleLine="true"-->
+
+<!--                    />-->
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_4"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/product_sans_bold"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:text="PEMESANAN"-->
+<!--                    android:layout_marginLeft="20dp"-->
+<!--                    android:textColor="@color/colorPrimaryDark"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:layout_below="@+id/tv_3"-->
+<!--                    />-->
+
+<!--                <ImageView-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_width="50dp"-->
+<!--                    android:src="@drawable/ic_baseline_arrow_forward_24"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:layout_centerVertical="true"-->
+<!--                    android:layout_marginRight="20dp"/>-->
+
+
+<!--            </RelativeLayout>-->
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

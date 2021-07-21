@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Organic Cat Fish</string>
+    <string name="home">Home</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_login_peternaklele">Login Peternak Lele</string>
+    <string name="title_login_rumahmakan">Login Rumah Makan</string>
+    <string name="title_login_driver">Login Driver</string>
+    <string name="title_daftar_peternaklele">Daftar Peternak Lele</string>
+    <string name="title_daftar_rumahmakan">Daftar Rumah Makan</string>
+    <string name="title_daftar_driver">Daftar Driver</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--<string name="google_maps_API_key">AIzaSyBQF1qbZHkuQNLBh2bTgxttB5P-A9Zi79c</string>-->
+</resources>

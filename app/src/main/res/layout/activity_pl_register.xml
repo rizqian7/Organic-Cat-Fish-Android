@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:background="#ffffff"
+    tools:context=".Activity.PeternakLele.RegisterPLActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_primary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/data_pribadi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_sans_extra_bold"
+                    android:text="DAFTAR PETERNAK LELE"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/etNoKtp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="NO KTP"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+
+                <EditText
+                    android:id="@+id/etNamaLengkap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="NAMA LENGKAP"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+                />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etNoHp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="NO HP"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etNamaUsaha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="NAMA USAHA"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etJumlahKolam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="JUMLAH KOLAM"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etJumlahProduksi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="JUMLAH PRODUKSI (KG)"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="ALAMAT"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="USERNAME"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textSize="12sp"
+                    android:hint="PASSWORD"
+                    android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:textColorHint="@color/colorAccent"
+                    android:backgroundTint="@color/backgroundPrimary"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorAccent"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnDaftarPL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_two"
+                android:fontFamily="@font/nunito_sans_bold"
+                android:text="Daftar"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

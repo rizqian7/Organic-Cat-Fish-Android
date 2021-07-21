@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activity.RumahMakan.LoginRMActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo">
+
+            <TextView
+                android:id="@+id/titleLoginRM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_sans_black"
+                android:layout_centerHorizontal="true"
+                android:text="@string/title_login_rumahmakan"
+                android:textColor="@color/buttonText"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/lila1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleLoginRM"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:text="Username"
+                        android:textAllCaps="true"
+                        android:textColor="@color/buttonText"
+                        android:textSize="15sp"/>
+
+                    <EditText
+                        android:id="@+id/etUsernameRM"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/et_bg"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/buttonText"
+                        android:inputType="text"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:text="Password"
+                        android:textAllCaps="true"
+                        android:textColor="@color/buttonText"
+                        android:textSize="15sp"/>
+
+                    <EditText
+                        android:id="@+id/etPasswordRM"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/et_bg"
+                        android:fontFamily="@font/nunito_sans_bold"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        android:textColor="@color/buttonText"
+                        android:inputType="textPassword"
+                        android:textSize="15sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLoginRM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lila1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/btn_one"
+                android:fontFamily="@font/nunito_sans_extra_bold"
+                android:paddingRight="100dp"
+                android:paddingLeft="100dp"
+                android:text="Login"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/btnDaftarRM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lila1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                android:background="@drawable/btn_one"
+                android:fontFamily="@font/nunito_sans_extra_bold"
+                android:paddingRight="97dp"
+                android:paddingLeft="97dp"
+                android:text="Daftar"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

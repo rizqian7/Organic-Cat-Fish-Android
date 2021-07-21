@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/btndaftarPanen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:minHeight="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:textSize="15sp"
+                android:text="Nama"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:singleLine="true"
+
+                />
+            <TextView
+                android:id="@+id/tv_tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:textSize="15sp"
+                android:text="Tanggal"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:singleLine="true"
+                android:layout_below="@+id/tv_nama"
+                />
+
+            <TextView
+                android:id="@+id/tv_nohp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_bold"
+                android:textSize="15sp"
+                android:text="No. Hp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:singleLine="true"
+                android:layout_below="@+id/tv_tanggal"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "163623235284",
+    "firebase_url": "https://organic-cat-fish.firebaseio.com",
+    "project_id": "organic-cat-fish",
+    "storage_bucket": "organic-cat-fish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163623235284:android:917cdae8614e9781",
+        "android_client_info": {
+          "package_name": "ocf.organiccatfish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163623235284-9kpc9dlg2nlct1n0g1pnm32p78fe6293.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtEpf3yXkR8Ogp7cwSRVA9ZlbmZZda-jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163623235284-9kpc9dlg2nlct1n0g1pnm32p78fe6293.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activity.PeternakLele.HomePLActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/buttonText"
+                android:text="WELCOME DASHBOARD"
+                android:textSize="25sp"
+                android:fontFamily="@font/nunito_sans_black"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/buttonText"
+                android:text="DRIVER"
+                android:textSize="25sp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/nunito_sans_black"
+                android:gravity="center"/>
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
